@@ -48,15 +48,19 @@
 	#body>div{
 		margin:20px;
 	}
-	#landMineSearch{
+	.sameStyle{
 		background:lightgray;
 		border:0px;
 		padding:10px;
 		font-size:22px;
 		font-weight:bold;
-		width:100px;
 		padding-left:14px;
 		padding-top:13px;
+	}
+	
+	/* mine */
+	#landMineSearch{
+		width:100px;
 	}
 	#landMineSearch:hover{
 		cursor:pointer;
@@ -66,6 +70,20 @@
 	}
 	.mineRed{
 		color:red;
+	}
+	
+	/* sameCard */
+	#sameCardSearch{
+		width:140px;
+	}
+	.cardBlue{
+		color:blue;
+	}
+	.cardRed{
+		color:red;
+	}
+	.cardGreen{
+		color:green;
 	}
 	
 	#footer{
@@ -85,12 +103,20 @@
     	</div>
     	
     	<div id = "body">
-    		<div id = "landMineSearch">
+    	
+    		<div id = "landMineSearch" class="sameStyle">
     			<label>지</label>
     			<label class="mineRed">뢰</label>
-    			<label >찾</label>
+    			<label>찾</label>
     			<label class="mineRed">기</label>
     		</div>
+    		
+    		<div id = "sameCardSearch" class="sameStyle">
+    			<label class="cardBlue">같은</label>
+    			<label class="cardRed">그림</label>
+    			<label class="cardGreen">찾기</label>
+    		</div>
+    		
     	</div>
     	
     	<div id = "footer">
@@ -100,7 +126,10 @@
     </div>
     <script>
     	$("#landMineSearch").click(function(){
-    		location.href = "<%=cp%>/LandMineSearch";
+    		location.href = "<%=cp%>/landMineSearch";
+    	});
+    	$("#sameCardSearch").click(function(){
+    		location.href = "<%=cp%>/sameCardSearch";
     	});
     </script>
 </body>
