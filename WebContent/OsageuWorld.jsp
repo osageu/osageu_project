@@ -10,6 +10,7 @@
 <title>Osageu World</title>
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="shortcut icon" href="resources/game/hanzo.jpeg">
 <style>
 	body{
 		background:black;
@@ -56,8 +57,11 @@
 		font-weight:bold;
 		padding-left:14px;
 		padding-top:13px;
+		cursor:pointer;
 	}
-	
+	.sameStyle label{
+		cursor:pointer;
+	}
 	/* mine */
 	#landMineSearch{
 		width:100px;

@@ -11,6 +11,7 @@
 <meta charset="UTF-8">
 <title>지뢰찾기</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="shortcut icon" href="resources/game/hanzo.jpeg">
 <style>
 	#wrapMind{
 		width:900px;
