@@ -1,14 +1,10 @@
 package com.osageu.programmers.level1;
 
-import java.util.ArrayList;
+public class Caesar_cipher {
 
-public class Run {
-
-	public static void main(String[] args) {
-		
-		String s = "a B z";
-		int n = 4;
-		StringBuilder sb = new StringBuilder();
+	public String solution(String s, int n) {
+		String answer = "";
+        StringBuilder sb = new StringBuilder();
 		for(int i = 0 ; i < s.length() ; i++) {
 			if(s.charAt(i)==32) { // 공백 
 				sb.append(s.charAt(i));
@@ -27,8 +23,8 @@ public class Run {
 				
 			}
 		}
-		s = sb.toString();
-		System.out.println(sb);
-	}
-
+        answer = sb.toString();
+        return answer;
+    }
+	
 }
