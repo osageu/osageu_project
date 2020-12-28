@@ -1,34 +1,18 @@
 package com.osageu.programmers.level1;
 
-import java.util.ArrayList;
-
 public class Run {
 
 	public static void main(String[] args) {
 		
-		String s = "a B z";
-		int n = 4;
-		StringBuilder sb = new StringBuilder();
-		for(int i = 0 ; i < s.length() ; i++) {
-			if(s.charAt(i)==32) { // 공백 
-				sb.append(s.charAt(i));
-			}else if(s.charAt(i) >= 65 && s.charAt(i) <= 90) { // 대문자
-				if(s.charAt(i)+n <= 90) {
-					sb.append((char)(s.charAt(i)+n));
-				}else {
-					sb.append((char)(s.charAt(i)+n-26));
-				}
-			}else { // 소문자
-				if(s.charAt(i)+n <= 122) {
-					sb.append((char)(s.charAt(i)+n));
-				}else {
-					sb.append((char)(s.charAt(i)+n-26));
-				}
-				
-			}
-		}
-		s = sb.toString();
-		System.out.println(sb);
+//		int[] iArr = {1,3,4,5,8,2,1,4,5,9,5};
+//		String s = "right";
+//		int[] iArr = {7,0,8,2,8,3,1,5,7,6,2};
+//		String s = "left";
+		int[] iArr = {1,2,3,4,5,6,7,8,9,0};
+		String s = "right";
+		String result = new Click_keypad().solution(iArr, s);
+		System.out.println(result);
+		
 	}
 
 }
