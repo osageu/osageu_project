@@ -2,7 +2,7 @@ package com.osageu.programmers.level1;
 
 import java.util.ArrayList;
 
-public class Sum_divisor {
+public class 약수의_합 {
 
 	public int solution(int n) {
         int answer = 0;

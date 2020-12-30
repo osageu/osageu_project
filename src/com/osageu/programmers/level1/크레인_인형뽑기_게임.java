@@ -2,7 +2,7 @@ package com.osageu.programmers.level1;
 
 import java.util.ArrayList;
 
-public class Crane {
+public class 크레인_인형뽑기_게임 {
 	
 	public int solution(int[][] board, int[] moves) {
         int answer = 0;

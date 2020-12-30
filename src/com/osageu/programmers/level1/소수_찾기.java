@@ -2,7 +2,7 @@ package com.osageu.programmers.level1;
 
 import java.util.ArrayList;
 
-public class Primenumber {
+public class 소수_찾기 {
 	
 	// 내 것 (근데 효율성 테스트는 미통과)
 	public int solution(int n) {

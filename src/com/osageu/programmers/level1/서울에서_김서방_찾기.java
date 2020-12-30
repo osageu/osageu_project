@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class Find_Kim {
+public class 서울에서_김서방_찾기 {
 
 	public String solution(String[] seoul) {
         String answer = "";

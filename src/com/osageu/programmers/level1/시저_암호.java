@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class Caesar_cipher {
+public class 시저_암호 {
 
 	public String solution(String s, int n) {
 		String answer = "";

@@ -2,7 +2,7 @@ package com.osageu.programmers.level1;
 
 import java.util.ArrayList;
 
-public class Hate_same_number {
+public class 같은_숫자는_싫어 {
 
 	public int[] solution(int []arr) {
         int[] answer = {};

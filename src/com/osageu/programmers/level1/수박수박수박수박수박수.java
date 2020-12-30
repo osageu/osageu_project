@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class Watermelon {
+public class 수박수박수박수박수박수 {
 
 	public String solution(int n) {
         String answer = "";

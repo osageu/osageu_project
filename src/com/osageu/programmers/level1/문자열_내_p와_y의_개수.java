@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class PandY {
+public class 문자열_내_p와_y의_개수 {
 	
 	boolean solution(String s) {
         boolean answer = true;

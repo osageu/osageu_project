@@ -3,7 +3,7 @@ package com.osageu.programmers.level1;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Divide0 {
+public class 나누어_떨어지는_숫자_배열 {
 
 	public int[] solution(int[] arr, int divisor) { // {5, 9, 7, 10};
         int[] answer = {};

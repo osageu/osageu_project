@@ -1,8 +1,6 @@
 package com.osageu.programmers.level1;
 
-import java.util.Arrays;
-
-public class Weird_world {
+public class 이상한_문자_만들기 {
 
 	public String solution(String s) {
         String answer = "";

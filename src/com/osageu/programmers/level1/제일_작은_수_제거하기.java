@@ -3,7 +3,7 @@ package com.osageu.programmers.level1;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Smallest_number_remove {
+public class 제일_작은_수_제거하기 {
 	 public int[] solution(int[] arr) {
 	        int[] answer = {};
 	        

@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class Dot_product {
+public class 내적 {
 
 	public int solution(int[] a, int[] b) {
         int answer = 0;

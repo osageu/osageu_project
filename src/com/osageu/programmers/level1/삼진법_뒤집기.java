@@ -2,7 +2,7 @@ package com.osageu.programmers.level1;
 
 import java.util.ArrayList;
 
-public class Flip {
+public class 삼진법_뒤집기 {
 
 	public int solution(int n) {
         int answer = 0;

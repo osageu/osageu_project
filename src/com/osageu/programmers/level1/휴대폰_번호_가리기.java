@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class PhoneNumber_hide {
+public class 휴대폰_번호_가리기 {
 	
 	public String solution(String phone_number) {
         String answer = "";

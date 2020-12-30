@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class StringToInt {
+public class 문자열을_정수로_바꾸기 {
 	
 	public int solution(String s) { // "+1234"
         int answer = 0;

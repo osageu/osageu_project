@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 
-class Pick2_and_sum {
+class 두_개_뽑아서_더하기 {
 	
     public int[] solution(int[] numbers) { // numbers = { 2, 1, 3, 4, 1 } 4 3 2 1
     	

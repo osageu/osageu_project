@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class String_handle_basic {
+public class 문자열_다루기_기본 {
 
 	public boolean solution(String s) {
 		boolean answer = true;

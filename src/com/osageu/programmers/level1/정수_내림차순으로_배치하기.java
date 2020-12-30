@@ -3,7 +3,7 @@ package com.osageu.programmers.level1;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Integer_descending_order {
+public class 정수_내림차순으로_배치하기 {
 	
 	public long solution(long n) {
         long answer = 0;

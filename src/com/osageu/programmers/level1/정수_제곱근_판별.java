@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class Sqrt_test {
+public class 정수_제곱근_판별 {
 	public long solution(long n) {
         long answer = 0;
         

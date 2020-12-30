@@ -3,7 +3,7 @@ package com.osageu.programmers.level1;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Number_reverse_array {
+public class 자연수_뒤집어_배열로_만들기 {
 	
 	public int[] solution(long n) {
         int[] answer = {};

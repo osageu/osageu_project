@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class Even_or_Odd {
+public class 짝수와_홀수 {
 	public String solution(int num) {
         String answer = "";
         

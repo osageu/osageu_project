@@ -1,6 +1,6 @@
 package com.osageu.programmers.level1;
 
-public class Click_keypad {
+public class 키패드_누르기 {
 	public String solution(int[] numbers, String hand) {
         String answer = "";
         

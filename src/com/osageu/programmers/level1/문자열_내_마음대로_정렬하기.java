@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class String_dispose {
+public class 문자열_내_마음대로_정렬하기 {
 	
 	public String[] solution(String[] strings, int n){
 		String[] answer = {};
