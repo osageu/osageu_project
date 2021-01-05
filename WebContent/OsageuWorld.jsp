@@ -93,6 +93,13 @@
 	#footer{
 		height:10%;
 	}
+	
+	/* omok */
+	#omok{
+		width:80px;
+		text-align:center;
+	}
+	
 </style>
 </head>
 <body>
@@ -121,6 +128,11 @@
     			<label class="cardGreen">찾기</label>
     		</div>
     		
+    		<div id = "omok" class="sameStyle">
+    			<label>오</label>
+    			<label style="color:white">목</label>
+    		</div>
+    		
     	</div>
     	
     	<div id = "footer">
@@ -134,6 +146,9 @@
     	});
     	$("#sameCardSearch").click(function(){
     		location.href = "<%=cp%>/sameCardSearch";
+    	});
+    	$("#omok").click(function(){
+    		location.href = "<%=cp%>/omok";
     	});
     </script>
 </body>
